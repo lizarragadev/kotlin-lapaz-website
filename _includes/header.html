@@ -24,10 +24,6 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 	</head>
-	{% if page.url == "/index.html" %}
-		<body>
-			<section id="banner"></section>
-	{% else %}
 	<!-- Banner -->
 	<body class="landing">
 		<section id="banner">
@@ -38,7 +34,6 @@
 				<li><a href="#" class="button">Learn More</a></li>
 			</ul>
 		</section>
-	{% endif %}
 	{% include nav.html %}
 	<!-- Main -->
 	<section id="main" class="container">
