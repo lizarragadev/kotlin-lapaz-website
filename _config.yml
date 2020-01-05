@@ -1,7 +1,8 @@
-name: Kotlin La Paz
-description: Kotlin User Group La Paz
+name: Alpha
+description: Alphs template for Jekyll
+baseurl: '/Alpha-Jekyll-Theme'
 
-url: "https://kotlinlapaz.dev"
+url: "http://localhost:4000"
 
 paginate: 10
 
